@@ -24,7 +24,11 @@ main{
     justify-content: center;
     grid-template-columns: minmax(150px, 620px);
 }
+main  h2{
+    font-family: initial;
+}
 main > aside#MATEMATICA,aside#PORTUQUES{
+   
    margin-bottom: 50px;
    background-color: rgb(2, 192, 192);
    margin: 20px;
@@ -33,12 +37,21 @@ main > aside#MATEMATICA,aside#PORTUQUES{
    padding: 20px;
 }
 main> aside#PORTUQUES{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
     background-color: rgb(174, 18, 49);
 }
 main> aside#PORTUQUES > h2{
     text-align: center;
+    
+}
+main > aside#MATEMATICA{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
 }
 main > aside#MATEMATICA > h2{
     text-align: center;
-    font-family: initial;
+    
 }
